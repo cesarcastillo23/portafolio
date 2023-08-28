@@ -1,0 +1,22 @@
+.container-main{
+  padding-top: 60px;
+}
+.contacto{
+  width: 100%;
+}
+
+.img-radio{
+  border-radius: 50%;
+}
+
+
+.cont-img{
+  transition: 0.5s;
+}
+.cont-img:hover{
+  transition: 0.5s;
+  transform:translateY(-1rem);
+  -webkit-box-shadow: -3px 3px 45px -6px #5A14FE;
+  -moz-box-shadow: -3px 3px 45px -6px #5A14FE;
+  box-shadow: -3px 3px 45px -6px #5A14FE;
+}

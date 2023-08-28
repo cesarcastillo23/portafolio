@@ -1,0 +1,41 @@
+.container-main{
+  padding-top: 60px;
+}
+.glass-efect{
+  background: #fafafa10;
+  backdrop-filter: blur(0.4rem);
+}
+.card-bg{
+  background: #111111;
+}
+.img-tech{
+  width: 30px;
+  height: 30px;
+}
+
+.card-hov{
+  color: white;
+  transition: 0.5s;
+}
+.card-hov:hover{
+  transition: 0.5s;
+  transform:translateY(-1rem);
+  -webkit-box-shadow: -3px 3px 45px -6px #5A14FE;
+  -moz-box-shadow: -3px 3px 45px -6px #5A14FE;
+  box-shadow: -3px 3px 45px -6px #5A14FE;
+}
+
+@media screen and (max-width:1200px){}
+@media screen and (min-width:770px) and (max-width:990px) {
+  .col{
+    width: 50%;
+  }
+
+}
+@media screen and (min-width:350px)and (max-width:770px){
+  /* .me-4{
+  margin-right: -20px;
+} */
+.mq-mg{
+  margin-right: 22px;
+}}

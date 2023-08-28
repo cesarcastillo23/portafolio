@@ -1,0 +1,50 @@
+.container-main{
+  padding-top: 100px;
+}
+.img-center{
+  margin-top: 45px;
+}
+.swiper{
+  width: 100%;
+
+}
+.swiper-slide{
+
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  background-position: center;
+  background-position: cover;
+  width: 220px;
+}
+.swiper-slide img{
+  display: block;
+  width: 100%;
+
+}
+@media screen and (max-width:1200px){
+  .swiper-slide{
+    width: 140px;
+  }
+  .mq-title{
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width:550px) and (max-width:800px) {
+  .swiper-slide{
+    width: 100px;
+  }
+  .mq-title{
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width:350px)and (max-width:550px){
+
+  .swiper-slide{
+    width: 90px;
+  }
+  .mq-title{
+    font-size: 1.6rem;
+  }
+}
+
